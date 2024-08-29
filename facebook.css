@@ -1,0 +1,42 @@
+body{
+    background-color: gainsboro;
+}
+.parent{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    font-family: sans-serif;
+}
+.facebook{
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  font-size:xx-large ;
+  width: 500px;
+}
+.p{
+    color:blue;
+}
+.login{
+    border: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px 200px;
+    font-size: larger;
+    padding: 50px;
+    background-color: white;
+    width: 300px;
+}
+button{
+    width: 175px;
+    color: white;
+    background-color: blue;
+}
+.button2{
+    width: 150px;
+    color: white;
+    background-color: green;
+}
